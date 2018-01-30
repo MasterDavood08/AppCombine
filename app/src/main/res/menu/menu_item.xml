@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navitem"
+        android:checkable="true"
+        android:title="معرفی کمباین غلات" />
+    <item
+        android:id="@+id/navitem1"
+        android:checkable="true"
+        android:title="اندازه گیری تلفات کمباین غلات" />
+    <item
+        android:id="@+id/navitem2"
+        android:checkable="true"
+        android:title="تنظیمات و رفع عیب در واحد برش" />
+    <item
+        android:id="@+id/navitem3"
+        android:checkable="true"
+        android:title="منابع" />
+
+</menu>
+
+
+

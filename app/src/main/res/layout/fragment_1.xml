@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="4dp"
+                    android:text="@string/m1"
+                    android:textSize="@dimen/font" />
+
+                <TextView
+                    fontPath="BYB.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ابزار مورد نیاز برای اندازه گیری تلفات کمباینی عبارت است از:"
+                    android:textSize="@dimen/title" />
+
+                <TextView
+                    fontPath="BY.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="8dp"
+                    android:text="@string/m11"
+                    android:textSize="@dimen/font" />
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

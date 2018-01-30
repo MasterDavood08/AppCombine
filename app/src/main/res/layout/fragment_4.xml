@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="4dp"
+                    android:text="@string/m4"
+                    android:textSize="@dimen/font" />
+
+                <TextView
+                    fontPath="BYB.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="نحوه محاسبه"
+                    android:textSize="@dimen/title" />
+                <TextView
+                    fontPath="BYB.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="تلفات كوبنده و جداکننده"
+                    android:textSize="17sp" />
+
+                <TextView
+                    fontPath="BY.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="8dp"
+                    android:text="@string/m44"
+                    android:textSize="@dimen/font" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:padding="8dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/i2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="اندازه گیری تلفات کمباینی در زمان برداشت محصول"
+                    android:textSize="12sp" />
+
+                <TextView
+                    fontPath="BYB.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="تلفات واحد جدا كننده "
+                    android:textSize="17sp" />
+
+                <TextView
+                    fontPath="BY.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="8dp"
+                    android:text="@string/m444"
+                    android:textSize="@dimen/font" />
+                <TextView
+                    fontPath="BYB.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="تلفات واحد تميز كننده"
+                    android:textSize="17sp" />
+
+                <TextView
+                    fontPath="BY.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="8dp"
+                    android:text="@string/m4444"
+                    android:textSize="@dimen/font" />
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
